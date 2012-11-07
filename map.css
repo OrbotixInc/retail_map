@@ -6,7 +6,7 @@ body{
 img{ 
   border:none;
 }
-header{ 
+div#header{ 
   position:absolute;
   top:0px;
   left:0px;
@@ -20,7 +20,7 @@ header{
 
 }
 
-footer{ 
+div#footer{ 
   position:absolute;
   bottom:0px;
   left:0px;
@@ -32,10 +32,10 @@ footer{
   padding:10px;
   z-index:1000;
 }
-footer a, footer a:visited{ 
+div#footer a, div#footer a:visited{ 
   color:#aaa
 }
-footer a:hover{
+div#footer a:hover{
   color:#999;
 } 
 div#logo{ 
@@ -100,7 +100,6 @@ div#modalcontainer{
 }
 div#modalmessage{ 
   width:450px;
-  height:300px;
   background:#fff;
   padding:20px;
   border:solid 3px #00a3e0;
@@ -121,6 +120,7 @@ h1{
   margin:5px 0px 3px 0px;
 
 }
+
 h2{ 
   color:#0093d0;
   font-size:18px;
@@ -133,6 +133,10 @@ h3{
   color:#666;
   margin:0px;
   text-align:justify;
+}
+
+img.logos{ 
+  margin-right:15px;
 }
 
 div.infowindow{ 
@@ -178,7 +182,7 @@ div#storelist{
   position:relative;
 }
 div#storelist h1{ 
-  margin-bottom:30px;
+  margin-bottom:0px;
 }
 div#storelist h2{ 
   clear:both;
@@ -192,7 +196,7 @@ div#storelist ul li{
   border-bottom:dotted 1px #ccc;
   padding:5px;
   clear:both;
-  height:40px;
+  height:50px;
 }
 div#storelist ul li span{ 
   float:left;
